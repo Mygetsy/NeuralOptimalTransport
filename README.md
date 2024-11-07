@@ -75,8 +75,9 @@ All the experiments are issued in the form of pretty self-explanatory jupyter no
 - [CelebA faces](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) requires ```datasets/list_attr_celeba.ipynb```;
 - Handbags, shoes, churches, outdoor [datasets](https://github.com/junyanz/iGAN/blob/master/train_dcgan/README.md);
 
+[!TIP]
 The dataloaders can be created by ```load_dataset``` function from ```src/tools.py```. The latter four datasets get loaded directly to RAM.
-
+https://raw.githubusercontent.com/Mygetsy/NeuralOptimalTransport/refs/heads/main/README.md
 ## Credits
 - [Weights & Biases](https://wandb.ai) developer tools for machine learning;
 - [pytorch-fid repo](https://github.com/mseitzer/pytorch-fid) to compute [FID](https://arxiv.org/abs/1706.08500) score;
